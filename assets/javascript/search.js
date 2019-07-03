@@ -45,5 +45,5 @@ displayResults();
 $("#run-search").on("click", function(){
     event.preventDefault();
     console.log("You clicked the button");
-    search();
+    search(); 
 });
