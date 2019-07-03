@@ -1,4 +1,5 @@
 # NYT_Search
+Recreate the New York Times Archives Search app.
 
-##Shah
-UI Dev
+This project requires html, js, and api use.
+
