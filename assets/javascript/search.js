@@ -26,6 +26,10 @@ function clearAllFields(){
 //function to display results
 function displayResults(){
     var results = $("<div>");
+
+    results.append("You clicked the button");
+
+    $(".panel-body").append(results);
     
 }
 
@@ -38,7 +42,8 @@ $.ajax({
 
 displayResults();
 
-$("#searchBtn").on("click", function(){
-    $("#test").append("You clicked the button");
+$("#run-search").on("click", function(){
+    event.preventDefault();
     console.log("You clicked the button");
+    search(); 
 });
